@@ -2,59 +2,68 @@
 
 A complete **personal finance management** Android application built using **Java** and **SQLite**. This app helps users track income and expenses, view detailed financial reports, and manage transactions — all **offline** and securely on-device.
 
+## GROUP MEMBERS and ID
+
+1,AARON ABRAHAM UU90522R
+2,ADONIAS NEGA UU87798R
+3,ADONYAS BERHANU UU92778R
+4,EYOB DERASH UU92720R
+5,LYDIA TEWOLDE UU92885R
+6,NATNAEL TADELE UU92803R
+
 ---
 
 ## 🎯 Features
 
 ### ✅ User Authentication
 
-* Secure user **registration and login**
-* **User-specific data isolation**
-* Basic **user profile management**
+- Secure user **registration and login**
+- **User-specific data isolation**
+- Basic **user profile management**
 
 ---
 
 ### 💰 Transaction Management
 
-* **Add Transactions**: Record income and expenses with custom categories
-* **Edit Transactions**: Update existing records
-* **Delete Transactions**: Remove unwanted entries
-* **Categorization**: Organize transactions by custom categories
+- **Add Transactions**: Record income and expenses with custom categories
+- **Edit Transactions**: Update existing records
+- **Delete Transactions**: Remove unwanted entries
+- **Categorization**: Organize transactions by custom categories
 
 ---
 
 ### 📊 Dashboard
 
-* **30-Day Overview**: Income & expense totals for the last 30 days
-* **Latest Transactions**: View recent financial activity
-* **Real-Time Updates**: Automatically refreshes when data changes
+- **30-Day Overview**: Income & expense totals for the last 30 days
+- **Latest Transactions**: View recent financial activity
+- **Real-Time Updates**: Automatically refreshes when data changes
 
 ---
 
 ### 📈 Reports & Analytics
 
-* **Lifetime Totals**: Full income and expense history
-* **Wallet Balance**: Net balance calculation *(Income − Expense)*
-* **Transaction History**: Detailed tabular view of all transactions
-* **Category Analysis**: Spending breakdown by category
+- **Lifetime Totals**: Full income and expense history
+- **Wallet Balance**: Net balance calculation _(Income − Expense)_
+- **Transaction History**: Detailed tabular view of all transactions
+- **Category Analysis**: Spending breakdown by category
 
 ---
 
 ### 💾 Data Management
 
-* **Local SQLite Database**: Secure on-device storage
-* **Offline Support**: No internet connection required
-* **Persistent Data**: Financial records are preserved
+- **Local SQLite Database**: Secure on-device storage
+- **Offline Support**: No internet connection required
+- **Persistent Data**: Financial records are preserved
 
 ---
 
 ## 🛠 Technical Stack
 
-* **Language**: Java
-* **Database**: SQLite
-* **Architecture**: MVC (Model–View–Controller)
-* **Minimum SDK**: API 21 (Android 5.0)
-* **Target SDK**: Latest Android Version
+- **Language**: Java
+- **Database**: SQLite
+- **Architecture**: MVC (Model–View–Controller)
+- **Minimum SDK**: API 21 (Android 5.0)
+- **Target SDK**: Latest Android Version
 
 ---
 
@@ -104,9 +113,9 @@ transactions (
 
 ### Prerequisites
 
-* Android Studio (Latest Version)
-* Android SDK (API 21+)
-* Java Development Kit (JDK 11+)
+- Android Studio (Latest Version)
+- Android SDK (API 21+)
+- Java Development Kit (JDK 11+)
 
 ### Build Instructions
 
@@ -129,37 +138,37 @@ transactions (
 
 ### 1️⃣ Login Screen
 
-* User authentication
-* Sign-up option for new users
+- User authentication
+- Sign-up option for new users
 
 ### 2️⃣ Registration Screen
 
-* First name, last name, username, password
-* Password confirmation validation
+- First name, last name, username, password
+- Password confirmation validation
 
 ### 3️⃣ Dashboard Screen
 
-* Income & expense totals (last 30 days)
-* Latest transactions
-* Quick access buttons
+- Income & expense totals (last 30 days)
+- Latest transactions
+- Quick access buttons
 
 ### 4️⃣ Add Transaction Screen
 
-* Category selection (Income / Expense)
-* Amount input
-* Description field
-* Date picker
+- Category selection (Income / Expense)
+- Amount input
+- Description field
+- Date picker
 
 ### 5️⃣ Modify Transactions Screen
 
-* View transactions in table format
-* Edit or delete selected transactions
+- View transactions in table format
+- Edit or delete selected transactions
 
 ### 6️⃣ Reports Screen
 
-* Lifetime income & expense totals
-* Wallet balance calculation
-* Complete transaction history table
+- Lifetime income & expense totals
+- Wallet balance calculation
+- Complete transaction history table
 
 ---
 
@@ -169,32 +178,32 @@ transactions (
 
 All database logic is handled in **`DatabaseHelper.java`**, including:
 
-* User registration & authentication
-* Transaction CRUD operations
-* Category management
-* Data aggregation for reports
+- User registration & authentication
+- Transaction CRUD operations
+- Category management
+- Data aggregation for reports
 
 ### UI Components
 
-* **TableLayout**: Dynamic transaction tables
-* **RadioGroup**: Category type selection
-* **EditText**: Validated user input fields
-* **Buttons**: Navigation & actions
+- **TableLayout**: Dynamic transaction tables
+- **RadioGroup**: Category type selection
+- **EditText**: Validated user input fields
+- **Buttons**: Navigation & actions
 
 ### Data Validation
 
-* Input validation for all fields
-* User-friendly error messages
-* SQLite constraint enforcement
+- Input validation for all fields
+- User-friendly error messages
+- SQLite constraint enforcement
 
 ---
 
 ## 📊 Performance Optimizations
 
-* **Efficient SQL Queries**
-* **Database Indexing** for faster lookups
-* **Proper Cursor Management** to avoid memory leaks
-* **Optimized UI** for smooth scrolling
+- **Efficient SQL Queries**
+- **Database Indexing** for faster lookups
+- **Proper Cursor Management** to avoid memory leaks
+- **Optimized UI** for smooth scrolling
 
 ---
 
@@ -202,26 +211,26 @@ All database logic is handled in **`DatabaseHelper.java`**, including:
 
 ### Manual Testing
 
-* User registration & login
-* Add, edit, and delete transactions
-* Data persistence across restarts
-* Report accuracy
+- User registration & login
+- Add, edit, and delete transactions
+- Data persistence across restarts
+- Report accuracy
 
 ### Automated Testing Targets
 
-* Database operations
-* Input validation
-* UI functionality
-* Navigation flows
+- Database operations
+- Input validation
+- UI functionality
+- Navigation flows
 
 ---
 
 ## 🔒 Security Features
 
-* Local-only data storage (no cloud)
-* Input validation to prevent SQL injection
-* User data isolation
-* Secure credential handling
+- Local-only data storage (no cloud)
+- Input validation to prevent SQL injection
+- User data isolation
+- Secure credential handling
 
 ---
 
@@ -229,22 +238,22 @@ All database logic is handled in **`DatabaseHelper.java`**, including:
 
 ### Planned Features
 
-* Budget management
-* Data export (CSV / PDF)
-* Charts & graphs
-* Cloud backup & restore
-* Multi-currency support
-* Recurring transactions
-* Receipt scanning (OCR)
-* Advanced category customization
+- Budget management
+- Data export (CSV / PDF)
+- Charts & graphs
+- Cloud backup & restore
+- Multi-currency support
+- Recurring transactions
+- Receipt scanning (OCR)
+- Advanced category customization
 
 ### Technical Improvements
 
-* MVVM architecture
-* Room database migration
-* Kotlin migration
-* Unit & integration testing
-* CI/CD pipeline
+- MVVM architecture
+- Room database migration
+- Kotlin migration
+- Unit & integration testing
+- CI/CD pipeline
 
 ---
 
@@ -254,28 +263,28 @@ All database logic is handled in **`DatabaseHelper.java`**, including:
 
 **App crashes on startup**
 
-* Verify permissions
-* Check database initialization
-* Ensure layout files exist
+- Verify permissions
+- Check database initialization
+- Ensure layout files exist
 
 **Transactions not saving**
 
-* Validate inputs
-* Confirm database write logic
-* Review error handling
+- Validate inputs
+- Confirm database write logic
+- Review error handling
 
 **Slow performance**
 
-* Add database indexes
-* Optimize queries
-* Implement pagination
+- Add database indexes
+- Optimize queries
+- Implement pagination
 
 ### Debugging Tips
 
-* Enable logging in `DatabaseHelper.java`
-* Use Android Studio Database Inspector
-* Monitor Logcat
-* Test with sample data
+- Enable logging in `DatabaseHelper.java`
+- Use Android Studio Database Inspector
+- Monitor Logcat
+- Test with sample data
 
 ---
 
@@ -289,10 +298,10 @@ All database logic is handled in **`DatabaseHelper.java`**, including:
 
 ### Contribution Guidelines
 
-* Follow Java coding standards
-* Comment complex logic
-* Update documentation
-* Write tests for new features
+- Follow Java coding standards
+- Comment complex logic
+- Update documentation
+- Write tests for new features
 
 ---
 
@@ -300,16 +309,16 @@ All database logic is handled in **`DatabaseHelper.java`**, including:
 
 ### For This Project
 
-* Android SQLite Documentation
-* Java Android Development Guide
-* Material Design Components
+- Android SQLite Documentation
+- Java Android Development Guide
+- Material Design Components
 
 ### Related Topics
 
-* Personal finance management
-* Mobile app development
-* Database design
-* UI/UX principles
+- Personal finance management
+- Mobile app development
+- Database design
+- UI/UX principles
 
 ---
 
@@ -317,11 +326,11 @@ All database logic is handled in **`DatabaseHelper.java`**, including:
 
 This project demonstrates proficiency in:
 
-* Android development with Java
-* SQLite integration
-* Authentication systems
-* Financial data reporting
-* End-to-end software development
+- Android development with Java
+- SQLite integration
+- Authentication systems
+- Financial data reporting
+- End-to-end software development
 
 ---
 
@@ -333,7 +342,7 @@ This project is licensed under the **MIT License**. See the `LICENSE` file for d
 
 ## 👏 Acknowledgments
 
-* Android Developer Community
-* SQLite Documentation Team
-* Open-source libraries used
-* Test users for valuable feedback
+- Android Developer Community
+- SQLite Documentation Team
+- Open-source libraries used
+- Test users for valuable feedback
