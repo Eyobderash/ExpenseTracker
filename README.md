@@ -4,12 +4,16 @@ A complete **personal finance management** Android application built using **Jav
 
 ## GROUP MEMBERS and ID
 
-1. AARON ABRAHAM UU90522R
-2. ADONIAS NEGA UU87798R
-3. ADONYAS BERHANU UU92778R
-4. EYOB DERASH UU92720R
-5. LYDIA TEWOLDE UU92885R
-6. NATNAEL TADELE UU92803R
+## 👥 Group Members
+
+|     | Name            | ID       |
+| --- | --------------- | -------- |
+| 1   | AARON ABRAHAM   | UU90522R |
+| 2   | ADONIAS NEGA    | UU87798R |
+| 3   | ADONYAS BERHANU | UU92778R |
+| 4   | EYOB DERASH     | UU92720R |
+| 5   | LYDIA TEWOLDE   | UU92885R |
+| 6   | NATNAEL TADELE  | UU92803R |
 
 ---
 
