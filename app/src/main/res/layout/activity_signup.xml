@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:background="@android:color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expense Tracker"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="40dp"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/etFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="FIRST NAME:"
+            android:padding="16dp"
+            android:background="@drawable/edittext_border"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="LAST NAME:"
+            android:padding="16dp"
+            android:background="@drawable/edittext_border"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="USERNAME:"
+            android:padding="16dp"
+            android:background="@drawable/edittext_border"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="PASSWORD:"
+            android:inputType="textPassword"
+            android:padding="16dp"
+            android:background="@drawable/edittext_border"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="CONFIRM PASSWORD:"
+            android:inputType="textPassword"
+            android:padding="16dp"
+            android:background="@drawable/edittext_border"
+            android:layout_marginBottom="32dp" />
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIGN UP"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="@color/purple_500"
+            android:textColor="@android:color/white"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HAVE AN ACCOUNT? LOGIN."
+            android:textSize="14sp"
+            android:textColor="@color/purple_500"
+            android:layout_gravity="center"
+            android:padding="8dp" />
+
+    </LinearLayout>
+</ScrollView>
